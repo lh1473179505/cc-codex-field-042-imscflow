@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="zh-Hans"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter"
+    ttp:profile="http://www.w3.org/ns/ttml/profile/imsc1/text"
+    ttp:frameRate="25"
+    ttp:cellResolution="32 15"
+    tts:extent="1920px 1080px">
+  <head>
+    <layout>
+      <region xml:id="bottom" tts:origin="5% 78%" tts:extent="90% 18%" tts:displayAlign="after" tts:writingMode="lrtb"/>
+      <region xml:id="top" tts:origin="8% 6%" tts:extent="84% 16%" tts:displayAlign="before" tts:writingMode="lrtb"/>
+    </layout>
+  </head>
+  <body>
+    <div>
+      <p xml:id="c1" begin="00:00:01:00" end="00:00:04:00" region="bottom">门口的风比预想的要大。</p>
+      <p xml:id="c2" begin="00:00:03:20" end="00:00:07:00" region="bottom">The weather report said it would stay quiet until dusk.</p>
+      <p xml:id="c3" begin="00:00:08:00" end="00:00:14:00" region="bottom">我们只能先把灯放下，再沿着墙根把那一行过长的说明挪到镜头切点之后： tonight we postpone the outdoor interview。</p>
+      <p xml:id="c4" begin="00:00:15:00" end="00:00:18:00" region="top">后期字幕请避开台标。</p>
+    </div>
+  </body>
+</tt>

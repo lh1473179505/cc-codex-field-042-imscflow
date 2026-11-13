@@ -1,0 +1,8 @@
+{
+  "safe_area": {"x": 10, "y": 10, "w": 80, "h": 80},
+  "max_lines": 2,
+  "line_gap_cells": 0.25,
+  "pre_roll_frames": 1,
+  "post_roll_frames": 2,
+  "min_cue_frames": 8
+}
